@@ -2,6 +2,9 @@
 
 ## Release Notes
 
+- Revert change made in 7.2.0 (#1131) that cause issue (#1169)
+  - [Different getUniqueId after version upgrade](https://github.com/react-native-device-info/react-native-device-info/issues/1169)
+
 ### 7.3.1
 
 - fix(android, test): drop mockito to 3.6.28 to fix android test build break (thanks @jamsch!)
@@ -9,7 +12,7 @@
 ### 7.3.0
 
 - feat(android, build): add ability to specify firebase bill of materials for iid versioning (#1133, thanks @Dimon70007!)
-- fix(notch): add Redmi 9 to hasNotch list (#1140, thanks @esgudnason!) 
+- fix(notch): add Redmi 9 to hasNotch list (#1140, thanks @esgudnason!)
 - test: Adding more tests and refactoring some getters (#1136, thanks @schie!)
 - chore: dependency updates (@mikehardy)
 
